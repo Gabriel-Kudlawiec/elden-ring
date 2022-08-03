@@ -1,0 +1,14 @@
+.menu-secundario__botao {
+    background-color: #d53b00;
+    border: none;
+    border-radius: 3.0rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    transition: 300ms ;
+}
+
+.menu-secundario__botao:hover {
+    background-color: #a22d00;
+}

@@ -1,0 +1,16 @@
+.banner__plataformas {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.banner__plataformas div {
+    border: solid #fff 1px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1.0rem;
+    padding: 0.5rem;
+}
+
+.banner__plataformas div:last-child {
+    margin-right: 0;
+}

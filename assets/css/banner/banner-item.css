@@ -1,0 +1,14 @@
+.banner__item {
+    align-items: center;
+    display: flex;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.banner__item:last-child {
+    margin-bottom: 0;
+}
+
+.banner__item img {
+    margin-right: 1.0rem;
+}

@@ -1,0 +1,6 @@
+.banner__conteudo {
+    background: linear-gradient(to right, #0B2728 10%, transparent);
+    color: #fff;
+    height: 100%;
+    padding: 60px 0 0 90px;
+}

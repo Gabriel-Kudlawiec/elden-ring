@@ -1,0 +1,16 @@
+.banner__botao {
+    background-color: #d63d00;
+    border: none;
+    border-radius: 3.0rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 4.0rem;
+    margin: 2.5rem 0;
+    transition: 300ms;
+    width: 29.8rem;
+}
+
+.banner__botao:hover {
+    background-color: #a22d00;
+}

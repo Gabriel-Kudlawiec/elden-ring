@@ -1,0 +1,13 @@
+.menu__botao {
+    background-color: #363636;
+    border: none;
+    border-radius: 3.0rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0 0.8rem 0.4rem 0.8rem;
+}
+
+.menu__botao:hover {
+    background-color: #606060;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/barraPreta.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-botao.css">
     <link rel="stylesheet" href="assets/css/containerMenu.css">
     <link rel="stylesheet" href="assets/css/menuSecundario/menuSecundario.css">
     <link rel="stylesheet" href="assets/css/menuSecundario/menuSecundario-lista.css">
@@ -17,10 +18,19 @@
     <link rel="stylesheet" href="assets/css/banner/baner-titulo.css">
     <link rel="stylesheet" href="assets/css/banner/banner-empresa.css">
     <link rel="stylesheet" href="assets/css/banner/banner-plataformas.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-preco.css">
     <link rel="stylesheet" href="assets/css/banner/banner-botao.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-lancamento.css">
     <link rel="stylesheet" href="assets/css/banner/banner-lista.css">
     <link rel="stylesheet" href="assets/css/banner/banner-item.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-conteudo.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
     <link rel="shortcut icon" href="https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$" type="image/x-icon">
+
+    <!--SOBRE-->
+    <link rel="stylesheet" href="assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-conteudo.css">
+
     <title>Elden Ring</title>
 </head>
 <body>
@@ -41,7 +51,7 @@
                     <li><a href="#" class="menu__link">Suporte</a>
                 </ul>
             </nav>           
-            <button>Iniciar sessão</button>
+            <button class="menu__botao">Iniciar sessão</button>
         </div>
 
         <div class="menu-secundario">
@@ -60,24 +70,41 @@
 
     <main>
         <section class="banner">
-            <div>
+            <div class="banner__conteudo">
                 <h1 class="banner__titulo">Elden Ring</h1>
                 <p class="banner__empresa">BANDAI NAMCO Entertainment Inc.</p>
                 <div class="banner__plataformas">
                     <div>PS4</div>
                     <div>PS5</div>
                 </div>
+                <p class="banner__preco">R$ 299,00</p>
+                <button class="banner__botao">Adicionar ao carrinho</button>
+                <p class="banner__lancamento">lançado em 25/02/2022</p>
+                <ul class="banner__lista">
+                    <li class="banner__item"><img src="assets/img/playstation.png" alt="Ps Plus"><p>PS Plus necessário para o jogo online</p></li>
+                    
+                    <li class="banner__item"><img src="assets/img/online-gaming.png" alt="Multiplayer online"><p>Compatível com até 4 jogadores online com o PS Plus</p></li>
+                    
+                    <li class="banner__item"><img src="assets/img/man.png" alt="Um jogador"><p>1 jogador</p></li>
+                </ul>
             </div>
+        </section>
 
-            <button class="banner__botao">Adicionar ao carrinho</button>
-            <p class="banner__lancamento">lançado em 25/02/2022</p>
-            <ul class="banner__lista">
-                <li class="banner__item"><img src="assets/img/playstation.png" alt="Ps Plus"><p>PS Plus necessário para o jogo online</p></li>
-
-                <li class="banner__item"><img src="assets/img/online-gaming.png" alt="Multiplayer online"><p>Compatível com até 4 jogadores online com o PS Plus</p></li>
-
-                <li class="banner__item"><img src="assets/img/man.png" alt="Um jogador"><p>1 jogador</p></li>
-            </ul>
+        <section class="sobre">
+            <div class="sobre__conteudo">  
+                <div>
+                    <h2 class="sobre__titulo">O que é Elden Ring?</h2>
+                    <p>Use o poder do Elden Ring e torne-se um Elden Lord nas Lands Between.</p>
+                </div>
+                <div>
+                    <p>A Golden Order foi destroçada. </p>
+                    <p>Nas Lands Between, governadas pela Rainha Marika, the Eternal, o Elden Ring, a fonte do Erdtree, foi destruído.</p>
+                    <p>Os semideuses filhos de Marika reivindicaram os fragmentos do Elden Ring conhecidos como Great Runes, e essa incrível força recém-descoberta desencadeou uma guerra: The Shattering. Uma guerra que significou o final do Greater Will.</p>
+                    <p>E agora o poder será dado aos Tarnished, que foram rejeitados e exilados das Lands Between.</p>
+                    <p>Com mortos que ainda vivem e uma graça há muito perdida, siga o caminho para as Lands Between, atravessando o mar nebuloso, para chegar até o Elden Ring.</p>
+                    <p>E torne-se o Elden Lord. </p>
+                </div>
+            </div>
         </section>
     </main>
 </body>
